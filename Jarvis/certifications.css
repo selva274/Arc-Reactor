@@ -16,5 +16,6 @@ h2 {
 
 .glimg img {
     height: 380px;
-    width: 492px;
+    width: 480px;
+    padding: 5px;
 }
