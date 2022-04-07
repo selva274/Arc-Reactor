@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+} 
+body{
+    background-image: url(sun.jpg);
+    background-position:center;
+    background-size: contain;     
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menubar{
+    background:blue;
+    text-align: center;
+} 
+.menubar ul{
+    display: inline-flex;
+   
+    list-style:none;
+    color:#ffff;
+} 
+.menubar ul li{
+    width: 120px;
+    margin:15px;
+    padding: 15px;
+} 
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active,.menubar ul li:hover{
+    background: #2bab0d; 
+    border: radius 3px;;
+} 
+.menubar .fa{
+    margin-right: 8px;
+} 
+.submenu-selva{
+    display: none; 
+    color: red;
+} 
+.submenu-selva ul li {
+    color: red;
+} 
+.submenu-selva ul li:hover{
+    color:black;
+}
+
+.menubar ul li:hover .submenu-selva{
+    display: block;
+    position: absolute;    
+    background-color: rgb(255, 157, 0);
+    margin-top:15px;
+    margin-left: -15px;
+} 
+.menubar ul li:hover .submenu-selva ul{
+    display: block;
+    margin: 10px;
+
+}
+.menubar ul li:hover .submenu-selva ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom:1px dotted firebrick;
+    background: transparent;
+    border-radius: 0px; 
+    text-align: left;
+} 
+.menubar ul li:hover .submenu-selva ul li:last-child{
+    border-bottom: none;
+} 
+.menubar ul li:hover .submenu-selva ul li a:hover{
+     color:blanchedalmond;
+} 
+.fa-angle-right{
+    float:right;
+} 
+.submenu-surya{
+    display: none;
+}
+.hover-me:hover .submenu-surya{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: grey;
+}
