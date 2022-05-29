@@ -1,4 +1,3 @@
-
 a=0
 flag=False
 while a<=5:
