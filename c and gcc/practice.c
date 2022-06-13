@@ -1,24 +1,8 @@
 #include<stdio.h>
-
-int main(void)
+#include<conio.h>
+#include<string.h>
+int main()
 {
-	int size = 6;
-	int val = 1;
-
-	// array declaration
-	int arr[size];
-	int i;
-
-	// initializing array elements
-	for (i = 0; i < size ; i++){
-		arr[i] = val;
-	}
-
-	// print array
-	printf("The array is:");
-	for (i = 0; i < size ; i++){
-		printf("%d ", arr[i]);
-	}
-
-	return 0;
+char s='a';
+printf("%d",sizeof(char));
 }
