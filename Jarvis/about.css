@@ -2,7 +2,19 @@
     background-color: whitesmoke;
 }
 
-h1 {
-    color: darkred;
-    text-align: center;
+
+.bioData{
+   text-align: center;
+}
+.checked{
+    color: orangered;
+    
+}
+.programList .list{
+    margin-left: 145px;
+    display:inline-block;
+    margin-top: 90px;
+}
+.list{
+
 }
