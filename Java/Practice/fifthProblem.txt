@@ -1,0 +1,17 @@
+package selva;
+import java.util.Iterator;
+import java.util.Scanner;public class practicemain {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		String nameString;
+		System.out.println("Enter your Name:");
+		nameString=scanner.next();
+		char x;
+		System.out.println("Enter Finding Character:");
+		x=scanner.next().charAt(0); 
+		int y=nameString.indexOf(x);
+		System.out.println(x+" is found at: "+y);
+	
+	}
+}

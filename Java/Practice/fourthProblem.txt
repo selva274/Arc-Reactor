@@ -1,0 +1,23 @@
+package selva;
+import java.util.Iterator;
+import java.util.Scanner;public class practicemain {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		int n,i; 
+		System.out.println("Enter Value:");
+		n=scanner.nextInt(); 
+		System.out.println("Correct Order:");
+		for(i=1;i<=n;i++) {
+			System.out.print(i+" ");
+			
+	}
+		System.out.println(""); 
+		System.out.println("Reverse Order:");
+		for(i=n;i>=0;i--) {
+			System.out.print(i+" ");
+			
+	}
+		
+	}
+}
