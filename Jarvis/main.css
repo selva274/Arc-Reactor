@@ -1,6 +1,4 @@
-h1 {
-    text-align: center;
-}
+
 
 body {
     background-color: whitesmoke;
@@ -15,14 +13,35 @@ ul li {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: xx-large;
-    font-weight: 200;
+    font-size: 150%;
+    font-weight: 400;
 }
 
-div {
-    margin-top: 220px;
-}
+
 
 div a {
     text-decoration: none;
 }
+.headings ul{
+    display: inline-flex;
+   
+    margin-left: 450px;
+}
+img{
+    width: 140px;
+    height: 140px;
+    margin-top: 0px;
+    padding: 15px;
+
+}
+.navbar h2{
+    float: right;
+    padding-top: 50px;
+    padding-right: 77%;
+}
+.navbar .maincontent{
+    align-items: center;
+    padding-top: 40px;
+
+}
+
